@@ -22,10 +22,9 @@ import {
     GridMaterial
 } from "@babylonjs/materials/grid";
 
-// Required side effects to populate the Create methods on the mesh class. Without this, the bundle would be smaller but the createXXX methods from mesh would not be accessible.
 import {MeshBuilder} from "@babylonjs/core";
 
-import { addLabelToMesh } from "./gui";
+import { addLabelToMesh } from "./components/gui";
 
 import "./css/style.css";
 
