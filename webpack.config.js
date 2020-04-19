@@ -23,7 +23,8 @@ module.exports = {
     devtool: "source-map",
 
     entry: {
-        index: "./src/index.ts"
+        index: "./src/index.ts",
+        page_01: "./src/page_01.ts"
     },
 
     output: {
